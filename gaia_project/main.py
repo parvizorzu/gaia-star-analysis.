@@ -15,7 +15,7 @@ with st.expander("📖 Справочник параметров (что зна�
     """)
 
 try:
-    df = execute_query('queries/main_query.sql')
+    df = execute_query('gaia_project/queries/main_query.sql')
     
     st.sidebar.header("Настройки фильтрации")
     
