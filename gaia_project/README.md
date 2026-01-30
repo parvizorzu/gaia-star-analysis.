@@ -25,9 +25,6 @@
 * `main.py`: Код дашборда.
 * `my.db`: Файл базы данных.
 
-## Запуск проекта
-1. Установите зависимости: `pip install -r requirements.txt`
-2. Создайте БД: `python3 ddl.py`
-3. Запустите дашборд: `streamlit run main.py`
+* Команда запуска: `streamlit run main.py`
 
-**Ссылка на задеплоенный дашборд:** [Здесь будет твоя ссылка после деплоя]
+Ссылка на дашборд: [https://gaia-star-analysis-xdcepbappmt3cvgvr3pbr7y.streamlit.app]
