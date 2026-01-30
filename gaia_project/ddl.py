@@ -3,6 +3,10 @@ import pandas as pd
 import os
 
 def create_db():
+    """
+    Инициализирует базу данных DuckDB, создает таблицы и 
+    заполняет их данными из CSV-файлов папки source.
+    """
     con = duckdb.connect('my.db')
        
     data_files = {
